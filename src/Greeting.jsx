@@ -1,8 +1,7 @@
-// Greeting.jsx
 import React from 'react';
 
-function Greeting(props) {
-  return <h1>hello, {props.name}</h1>;
+function Greeting({ name }) {
+  return <h1>Welcome, {name}!</h1>;
 }
 
 export default Greeting;
