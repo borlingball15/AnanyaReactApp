@@ -18,7 +18,7 @@ function App() {
       {/* <Counter />
       <WeatherComponent /> */}
     </div>
-  );
+  )
 }
 
 export default App;
